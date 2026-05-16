@@ -8,7 +8,7 @@ function App() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-3">
             <img 
-              src="https://raw.githubusercontent.com/nicoleslater/capstone/main/images/Logo.jpg" 
+              src="/logo.PNG" 
               alt="RN Logo" 
               className="w-14 h-14 rounded-lg"
             />
@@ -59,7 +59,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
               <img 
-                src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80" 
+                src="/foto personal.jpeg" 
                 alt="Personal trainer" 
                 className="rounded-2xl w-full grayscale hover:grayscale-0 transition-all duration-500"
               />
