@@ -53,9 +53,6 @@ function App() {
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8 font-bebas">
             A CIÊNCIA DO TREINO NA SUAS MÃOS, TREINOS PERIODIZADOS E CONSULTORIA DE ELITE PARA QUEM BUSCA PERFORMANCE MÁXIMA E RESULTADOS REAIS
           </p>
-          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8">
-            Acompanhamento individualizado completo com ajustes semanais, avaliação contínua e suporte direto via WhatsApp.
-          </p>
         </div>
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
@@ -107,6 +104,9 @@ function App() {
               <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="flex-1">
                   <h3 className="font-bebas text-4xl mb-4">CONSULTORIA <span className="text-orange">ONLINE</span></h3>
+                  <p className="text-gray-300 mb-6">
+                    Acompanhamento individualizado completo com ajustes semanais, avaliação contínua e suporte direto via WhatsApp.
+                  </p>
                   <ul className="space-y-2 text-gray-400 mb-6">
                     <li className="flex items-center gap-2">
                       <span className="text-orange">✓</span> Planilhas periodizadas
