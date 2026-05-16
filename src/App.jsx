@@ -310,18 +310,24 @@ function App() {
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
             Transformações reais de nossos clientes que alcançaram seus objetivos com acompanhamento personalizado
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/foto trabalho.jpeg" alt="Resultado 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <img src="/fotos trabalhos m (1).jpeg" alt="Resultado 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/fotos trabalho (1).jpeg" alt="Resultado 2" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <img src="/fotos trabalhos m (2).jpeg" alt="Resultado 2" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/fotos trabalho (2).jpeg" alt="Resultado 3" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <img src="/fotos trabalhos m (3).jpeg" alt="Resultado 3" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/fotos trabalho (3).jpeg" alt="Resultado 4" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <img src="/fotos trabalhos m (4).jpeg" alt="Resultado 4" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (5).jpeg" alt="Resultado 5" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (6).jpeg" alt="Resultado 6" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
           </div>
         </div>
