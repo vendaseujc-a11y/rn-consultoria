@@ -50,6 +50,9 @@ function App() {
         
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <img src="/logo 1.png" alt="RN Consultoria" className="w-64 h-64 sm:w-80 sm:h-80 mx-auto rounded-2xl image-glow" />
+          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8 font-bebas">
+            A CIÊNCIA DO TREINO NA SUAS MÃOS, TREINOS PERIODIZADOS E CONSULTORIA DE ELITE PARA QUEM BUSCA PERFORMANCE MÁXIMA E RESULTADOS REAIS
+          </p>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8">
             Acompanhamento individualizado completo com ajustes semanais, avaliação contínua e suporte direto via WhatsApp.
           </p>
@@ -104,9 +107,6 @@ function App() {
               <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="flex-1">
                   <h3 className="font-bebas text-4xl mb-4">CONSULTORIA <span className="text-orange">ONLINE</span></h3>
-                  <p className="text-gray-300 mb-6">
-                    Acompanhamento individualizado completo com ajuste semanais, avaliação contínua e suporte direto via WhatsApp.
-                  </p>
                   <ul className="space-y-2 text-gray-400 mb-6">
                     <li className="flex items-center gap-2">
                       <span className="text-orange">✓</span> Planilhas periodizadas
