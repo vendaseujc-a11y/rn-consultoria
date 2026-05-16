@@ -413,7 +413,7 @@ function App() {
               © 2026 RN Consultoria Esportiva. Todos os direitos reservados.
             </p>
             <p className="text-gray-600 text-xs mt-2">
-              Desenvolvido com Técnica e Paixão pelo Fitness.
+              Desenvolvido Por VNI Vender+
             </p>
           </div>
         </div>
