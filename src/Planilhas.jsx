@@ -106,17 +106,44 @@ function Planilhas() {
         </div>
       </section>
 
-      <section className="py-16 px-8">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-bebas text-3xl md:text-5xl text-center mb-8">
-            RESULTADOS <span className="text-orange">REAIS</span>
+      <section className="py-24 px-8">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="font-bebas text-4xl md:text-6xl text-center mb-4">
+            RESULTADOS REAIS DA <span className="text-orange">RN CONSULTORIA ESPORTIVA</span>
           </h2>
-          <div className="grid grid-cols-2 gap-4">
+          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+            Transformações reais de nossos clientes que alcançaram seus objetivos com acompanhamento personalizado
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/fotos trabalho (2).jpeg" alt="Resultado 1" className="w-full h-full object-cover" />
+              <img src="/foto trabalho.jpeg" alt="Resultado 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/fotos trabalho (3).jpeg" alt="Resultado 2" className="w-full h-full object-cover" />
+              <img src="/fotos trabalho (1).jpeg" alt="Resultado 2" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalho (2).jpeg" alt="Resultado 3" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalho (3).jpeg" alt="Resultado 4" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (1).jpeg" alt="Resultado 5" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (2).jpeg" alt="Resultado 6" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (3).jpeg" alt="Resultado 7" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (4).jpeg" alt="Resultado 8" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (5).jpeg" alt="Resultado 9" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalhos m (6).jpeg" alt="Resultado 10" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
           </div>
         </div>
