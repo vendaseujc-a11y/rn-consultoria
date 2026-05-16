@@ -53,9 +53,6 @@ function App() {
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8">
             Acompanhamento individualizado completo com ajustes semanais, avaliação contínua e suporte direto via WhatsApp.
           </p>
-          <button className="glow-button bg-orange text-white font-bold py-4 px-12 rounded-xl text-lg uppercase tracking-wider">
-            Começar Agora
-          </button>
         </div>
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
