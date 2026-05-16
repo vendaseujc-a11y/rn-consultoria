@@ -29,7 +29,7 @@ function Planilhas() {
               <p className="text-gray-400 mb-4">Treinos focados em crescimento muscular com volume e intensidade ideais.</p>
               <p className="font-bebas text-4xl text-orange mb-4">R$ 97</p>
               <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
-                Comprar
+                Comprar →
               </button>
             </div>
 
@@ -80,17 +80,18 @@ function Planilhas() {
           </div>
 
           <div className="mt-16 glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange">
-            <h3 className="font-bebas text-4xl text-center mb-4">PERIODIZAÇÃO <span className="text-orange">COMPLETA</span></h3>
+            <h3 className="font-bebas text-4xl text-center mb-4">SÉRIE <span className="text-orange">PLATINUM</span></h3>
+            <h4 className="font-bebas text-3xl text-center mb-4">PERIODIZAÇÃO <span className="text-orange">COMPLETA</span></h4>
             <p className="text-gray-300 text-center mb-6">O mapa definitivo para sua evolução. 6 meses de treinamento estruturado com progressão garantida.</p>
             <ul className="space-y-2 text-gray-400 mb-6 max-w-md mx-auto">
               <li className="flex items-center gap-2">
-                <span className="text-orange">✔️</span> 6 planilhas mensais
+                <span className="text-orange">✓</span> 6 planilhas mensais
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-orange">✔️</span> Vídeos técnicos
+                <span className="text-orange">✓</span> Vídeos técnicos
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-orange">✔️</span> Suporte no WhatsApp
+                <span className="text-orange">✓</span> Suporte no WhatsApp
               </li>
             </ul>
             <div className="text-center">
