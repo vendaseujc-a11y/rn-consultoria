@@ -25,7 +25,7 @@ function Planilhas() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">HIERTROFIA <span className="text-orange">MASCULINO</span></h3>
+              <h3 className="font-bebas text-3xl mb-4">HIPERTROFIA <span className="text-orange">MASCULINO</span></h3>
               <p className="text-gray-400 mb-4">Treinos focados em crescimento muscular com volume e intensidade ideais.</p>
               <p className="font-bebas text-4xl text-orange mb-4">R$ 97</p>
               <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
@@ -34,7 +34,7 @@ function Planilhas() {
             </div>
 
             <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">HIERTROFIA <span className="text-orange">FEMININO</span></h3>
+              <h3 className="font-bebas text-3xl mb-4">HIPERTROFIA <span className="text-orange">FEMININO</span></h3>
               <p className="text-gray-400 mb-4">Programa pensado para o corpo feminino com exercícios adequados.</p>
               <p className="font-bebas text-4xl text-orange mb-4">R$ 97</p>
               <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">

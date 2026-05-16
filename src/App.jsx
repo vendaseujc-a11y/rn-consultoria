@@ -169,7 +169,7 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                 </svg>
               </div>
-              <h4 className="font-bebas text-2xl text-center mb-2">HIERTROFIA</h4>
+              <h4 className="font-bebas text-2xl text-center mb-2">HIPERTROFIA</h4>
               <p className="text-orange text-center text-sm mb-4">MASCULINO</p>
               <p className="text-gray-400 text-sm text-center mb-4">Treinos focados em crescimento muscular com volume e intensidade ideais.</p>
               <div className="text-center border-t border-gray-700 pt-4">
@@ -185,7 +185,7 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <h4 className="font-bebas text-2xl text-center mb-2">HIERTROFIA</h4>
+              <h4 className="font-bebas text-2xl text-center mb-2">HIPERTROFIA</h4>
               <p className="text-orange text-center text-sm mb-4">FEMININO</p>
               <p className="text-gray-400 text-sm text-center mb-4">Programa pensado para o corpo feminino com exercícios adequados.</p>
               <div className="text-center border-t border-gray-700 pt-4">
@@ -227,80 +227,7 @@ function App() {
             </div>
           </div>
 
-          {/* Série Técnica - Divisões */}
-          <div className="mt-12">
-            <h3 className="font-bebas text-4xl text-center mb-8">
-              SÉRIE <span className="text-orange">TÉCNICA</span>
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {/* PPL */}
-              <div className="glass card-hover rounded-xl p-6 flex items-center gap-6">
-                <div className="w-20 h-20 bg-orange/20 rounded-xl flex items-center justify-center shrink-0">
-                  <svg className="w-10 h-10 text-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <h4 className="font-bebas text-3xl mb-1">PPL</h4>
-                  <p className="text-orange text-sm mb-2">Push • Pull • Legs</p>
-                  <p className="text-gray-400 text-sm">Divisão clássica para otimizar cada minuto na academia.</p>
-                  <p className="font-bebas text-3xl text-orange mt-4">R$ 147</p>
-                </div>
-              </div>
 
-              {/* Upper/Lower */}
-              <div className="glass card-hover rounded-xl p-6 flex items-center gap-6">
-                <div className="w-20 h-20 bg-orange/20 rounded-xl flex items-center justify-center shrink-0">
-                  <svg className="w-10 h-10 text-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <h4 className="font-bebas text-3xl mb-1">UPPER/LOWER</h4>
-                  <p className="text-orange text-sm mb-2">Superior • Inferior</p>
-                  <p className="text-gray-400 text-sm">Divisão equilibrada para desenvolvimento completo.</p>
-                  <p className="font-bebas text-3xl text-orange mt-4">R$ 147</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Série Platinum - Periodização 6 meses */}
-          <div className="mt-12">
-            <h3 className="font-bebas text-4xl text-center mb-8">
-              SÉRIE <span className="text-orange">PLATINUM</span>
-            </h3>
-            <div className="glass card-hover rounded-2xl p-8 max-w-4xl mx-auto border-2 border-orange">
-              <div className="flex flex-col md:flex-row items-center gap-8">
-                <div className="flex-1">
-                  <h4 className="font-bebas text-4xl mb-4">PERIODIZAÇÃO <span className="text-orange">COMPLETA</span></h4>
-                  <p className="text-gray-300 mb-4">O mapa definitivo para sua evolução. 6 meses de treinamento estruturado com progressão garantida.</p>
-                  <ul className="space-y-2 text-gray-400">
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span> 6 planilhas mensais
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span> Vídeos técnicos
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span> Suporte no WhatsApp
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span>gilize seu potencial
-                    </li>
-                  </ul>
-                </div>
-                <div className="text-center shrink-0">
-                  <p className="text-gray-500 line-through text-xl">R$ 597</p>
-                  <p className="font-bebas text-5xl text-orange">R$ 397</p>
-                  <p className="text-gray-400 mb-4">pagamento único</p>
-                  <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl">
-                    Garantir Minha Vaga
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
