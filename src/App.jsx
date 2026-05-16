@@ -129,6 +129,34 @@ function App() {
             </div>
           </div>
 
+          {/* Planilhas de Treino */}
+          <div className="mb-16">
+            <div className="glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange/30 relative overflow-hidden">
+              <div className="flex flex-col md:flex-row gap-8 items-center">
+                <div className="flex-1">
+                  <h3 className="font-bebas text-4xl mb-4">PLANILHAS <span className="text-orange">DE TREINO</span></h3>
+                  <p className="text-gray-300 mb-6">
+                    Planilhas personalizadas com exercícios específicos para seu objetivo. Pronto para usar!
+                  </p>
+                  <ul className="space-y-2 text-gray-400 mb-6">
+                    <li className="flex items-center gap-2">
+                      <span className="text-orange">✔️</span> Treinos periodizados
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="text-orange">✔️</span> Vídeos ensinando executar os exercícios
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="text-orange">✔️</span> Exercícios específicos para seu objetivo
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="text-orange">✔️</span> Pronto para usar
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Grid de Planilhas */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Hipertrofia Masculino */}
