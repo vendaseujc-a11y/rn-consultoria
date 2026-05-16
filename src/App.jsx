@@ -50,8 +50,8 @@ function App() {
         
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <img src="/logo 1.png" alt="RN Consultoria" className="w-64 h-64 sm:w-80 sm:h-80 mx-auto rounded-2xl image-glow" />
-          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8 font-bebas">
-            A CIÊNCIA DO TREINO NA SUAS MÃOS, TREINOS PERIODIZADOS E CONSULTORIA DE ELITE PARA QUEM BUSCA PERFORMANCE MÁXIMA E RESULTADOS REAIS
+          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8">
+            A ciência do treino na suas mãos, treinos periodizados e consultoria de elite para quem busca performance máxima e resultados reais
           </p>
         </div>
 
