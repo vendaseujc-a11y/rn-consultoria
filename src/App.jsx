@@ -98,9 +98,6 @@ function App() {
           {/* Card Destaque - Consultoria Online */}
           <div className="mb-16">
             <div className="glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange/30 relative overflow-hidden">
-              <div className="absolute top-0 right-0 bg-orange text-black font-bold px-4 py-2 rounded-bl-xl">
-                DESTAQUE
-              </div>
               <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="flex-1">
                   <h3 className="font-bebas text-4xl mb-4">CONSULTORIA <span className="text-orange">ONLINE</span></h3>
@@ -127,14 +124,6 @@ function App() {
                       <span className="text-orange">✔️</span> Protocolos ergogênicos
                     </li>
                   </ul>
-                </div>
-                <div className="text-center">
-                  <p className="text-gray-500 line-through text-lg">R$ 297/mês</p>
-                  <p className="font-bebas text-6xl text-orange">R$ 197</p>
-                  <p className="text-gray-400">por mês</p>
-                  <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl mt-6">
-                    Quero Agora
-                  </button>
                 </div>
               </div>
             </div>
