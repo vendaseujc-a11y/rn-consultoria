@@ -105,7 +105,7 @@ function App() {
                 <div className="flex-1">
                   <h3 className="font-bebas text-4xl mb-4">CONSULTORIA <span className="text-orange">ONLINE</span></h3>
                   <p className="text-gray-300 mb-6">
-                    Acompanhamento individualizado completo com adjustments semanais, avaliação contínua e suporte direto via WhatsApp.
+                    Acompanhamento individualizado completo com ajuste semanais, avaliação contínua e suporte direto via WhatsApp.
                   </p>
                   <ul className="space-y-2 text-gray-400 mb-6">
                     <li className="flex items-center gap-2">
