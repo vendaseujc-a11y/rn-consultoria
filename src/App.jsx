@@ -12,7 +12,7 @@ function App() {
               alt="RN Logo" 
               className="w-14 h-14 rounded-lg"
             />
-            <span className="font-bebas text-3xl tracking-wider">RN CONSULTA<span className="text-orange">ESPORTIVA</span></span>
+            <span className="font-bebas text-3xl tracking-wider">RN CONSULTORIA <span className="text-orange">ESPORTIVA</span></span>
           </div>
           <div className="hidden md:flex gap-8 text-sm font-medium">
             <a href="#sobre" className="hover:text-orange transition-colors">SOBRE</a>
@@ -35,8 +35,9 @@ function App() {
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto text-center">
+          <img src="/logo.PNG" alt="RN Consultoria" className="w-40 h-40 mx-auto mb-6 rounded-2xl image-glow" />
           <h1 className="font-bebas text-6xl md:text-8xl lg:text-9xl leading-none mb-6">
-            RN CONSULTA<span className="gradient-text">ESPORTIVA</span>
+            RN CONSULTORIA <span className="gradient-text">ESPORTIVA</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
             A Ciência do Treino na Sua Palma. Treinos periodizados e consultoria de elite para quem busca performance máxima e resultados reais.
