@@ -341,7 +341,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-3">
               <img 
-                src="https://raw.githubusercontent.com/nicoleslater/capstone/main/images/Logo.jpg" 
+                src="/logo.PNG" 
                 alt="RN Logo" 
                 className="w-12 h-12 rounded-lg"
               />
