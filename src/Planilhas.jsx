@@ -105,6 +105,22 @@ function Planilhas() {
         </div>
       </section>
 
+      <section className="py-16 px-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-bebas text-3xl md:text-5xl text-center mb-8">
+            RESULTADOS <span className="text-orange">REAIS</span>
+          </h2>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalho (2).jpeg" alt="Resultado 1" className="w-full h-full object-cover" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalho (3).jpeg" alt="Resultado 2" className="w-full h-full object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer className="py-8 px-8 bg-[#111] border-t border-gray-800 text-center">
         <p className="text-gray-500 text-sm">
           © 2026 RN Consultoria Esportiva. Todos os direitos reservados.
