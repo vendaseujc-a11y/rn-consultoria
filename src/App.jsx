@@ -152,6 +152,9 @@ function App() {
                       <span className="text-orange">✔️</span> Pronto para usar
                     </li>
                   </ul>
+                  <a href="/planilhas" className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl inline-block">
+                    Conhecer Planilha
+                  </a>
                 </div>
               </div>
             </div>
