@@ -1,24 +1,38 @@
 import { useState } from 'react'
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 glass px-8 py-4">
+      <nav className="fixed top-0 left-0 right-0 z-50 glass px-4 md:px-8 py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 md:gap-3">
             <img 
-              src="/logo.PNG" 
+              src="/logo 1.png" 
               alt="RN Logo" 
-              className="w-14 h-14 rounded-lg"
+              className="w-10 h-10 md:w-14 md:h-14 rounded-lg"
             />
-            <span className="font-bebas text-3xl tracking-wider">RN CONSULTORIA <span className="text-orange">ESPORTIVA</span></span>
+            <span className="font-bebas text-xl md:text-3xl tracking-wider">RN CONSULTORIA <span className="text-orange">ESPORTIVA</span></span>
           </div>
-          <div className="hidden md:flex gap-8 text-sm font-medium">
-            <a href="#sobre" className="hover:text-orange transition-colors">SOBRE</a>
-            <a href="#produtos" className="hover:text-orange transition-colors">PRODUTOS</a>
-            <a href="#diferenciais" className="hover:text-orange transition-colors">DIFERENCIAIS</a>
-            <a href="#contato" className="hover:text-orange transition-colors">CONTATO</a>
+          <button 
+            className="md:hidden p-2 text-white"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {menuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+          <div className={`fixed md:relative top-16 md:top-0 left-0 right-0 md:bg-transparent glass md:glass-none p-4 md:p-0 ${menuOpen ? 'block' : 'hidden'} md:flex gap-6 md:gap-8 text-sm font-medium`}>
+            <a href="#sobre" className="block md:inline py-2 hover:text-orange transition-colors" onClick={() => setMenuOpen(false)}>SOBRE</a>
+            <a href="#produtos" className="block md:inline py-2 hover:text-orange transition-colors" onClick={() => setMenuOpen(false)}>PRODUTOS</a>
+            <a href="#diferenciais" className="block md:inline py-2 hover:text-orange transition-colors" onClick={() => setMenuOpen(false)}>DIFERENCIAIS</a>
+            <a href="#contato" className="block md:inline py-2 hover:text-orange transition-colors" onClick={() => setMenuOpen(false)}>CONTATO</a>
           </div>
         </div>
       </nav>
@@ -35,7 +49,7 @@ function App() {
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <img src="/logo.PNG" alt="RN Consultoria" className="w-40 h-40 mx-auto mb-6 rounded-2xl image-glow" />
+          <img src="/logo 1.png" alt="RN Consultoria" className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-4 sm:mb-6 rounded-2xl image-glow" />
           <h1 className="font-bebas text-6xl md:text-8xl lg:text-9xl leading-none mb-6">
             RN CONSULTORIA <span className="gradient-text">ESPORTIVA</span>
           </h1>
@@ -342,7 +356,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-3">
               <img 
-                src="/logo.PNG" 
+                src="/logo 1.png" 
                 alt="RN Logo" 
                 className="w-12 h-12 rounded-lg"
               />
