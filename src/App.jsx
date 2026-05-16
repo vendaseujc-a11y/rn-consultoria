@@ -284,6 +284,32 @@ function App() {
         </div>
       </section>
 
+      {/* Resultados Reais */}
+      <section className="py-24 px-8">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="font-bebas text-4xl md:text-6xl text-center mb-4">
+            RESULTADOS REAIS DA <span className="text-orange">RN CONSULTORIA ESPORTIVA</span>
+          </h2>
+          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+            Transformações reais de nossos clientes que alcançaram seus objetivos com acompanhamento personalizado
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/foto trabalho.jpeg" alt="Resultado 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalho (1).jpeg" alt="Resultado 2" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalho (2).jpeg" alt="Resultado 3" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden image-glow">
+              <img src="/fotos trabalho (3).jpeg" alt="Resultado 4" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Diferenciais */}
       <section id="diferenciais" className="py-24 px-8 bg-[#111]">
         <div className="max-w-6xl mx-auto">
