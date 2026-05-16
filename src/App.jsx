@@ -51,7 +51,7 @@ function App() {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <img src="/logo 1.png" alt="RN Consultoria" className="w-64 h-64 sm:w-80 sm:h-80 mx-auto rounded-2xl image-glow" />
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto mt-8">
-            A Ciência do Treino na Sua Palma. Treinos periodizados e consultoria de elite para quem busca performance máxima e resultados reais.
+            Acompanhamento individualizado completo com ajustes semanais, avaliação contínua e suporte direto via WhatsApp.
           </p>
           <button className="glow-button bg-orange text-white font-bold py-4 px-12 rounded-xl text-lg uppercase tracking-wider">
             Começar Agora
