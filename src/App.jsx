@@ -109,16 +109,22 @@ function App() {
                   </p>
                   <ul className="space-y-2 text-gray-400 mb-6">
                     <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span> Planilhas periodizadas
+                      <span className="text-orange">✔️</span> Treinos periodizados
                     </li>
                     <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span> Vídeos de exercício
+                      <span className="text-orange">✔️</span> Vídeos ensinando executar os exercícios de maneira correta
                     </li>
                     <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span> Suporte 24/7
+                      <span className="text-orange">✔️</span> Suporte 24/7
                     </li>
                     <li className="flex items-center gap-2">
-                      <span className="text-orange">✓</span> Ajuste mensal gratuito
+                      <span className="text-orange">✔️</span> Plano alimentar
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="text-orange">✔️</span> Suplementação/manipulados
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="text-orange">✔️</span> Protocolos ergogênicos
                     </li>
                   </ul>
                 </div>
