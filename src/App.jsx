@@ -109,7 +109,7 @@ function App() {
                       <span className="text-orange">✔️</span> Treinos periodizados
                     </li>
                     <li className="flex items-center gap-2">
-                      <span className="text-orange">✔️</span> Vídeos ensinando executar os exercícios de maneira correta
+                      <span className="text-orange">✔️</span> Vídeos explicativos ensinando executar exercícios
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="text-orange">✔️</span> Suporte 24/7
@@ -131,7 +131,11 @@ function App() {
 
           {/* Planilhas de Treino */}
           <div className="mb-16">
-            <div className="glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange/30 relative overflow-hidden flex justify-center items-center">
+            <div className="glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange/30 relative overflow-hidden flex flex-col justify-center items-center text-center">
+              <h3 className="font-bebas text-4xl mb-4">PLANILHAS <span className="text-orange">DE TREINO</span></h3>
+              <p className="text-gray-300 mb-8 text-xl max-w-2xl">
+                Planilhas Personalisadas com exercicios especificos para seu objetivo. Pronto para usar
+              </p>
               <a href="/planilhas" className="glow-button bg-orange text-white font-bold py-4 px-12 rounded-xl inline-block text-2xl uppercase tracking-wider">
                 Conhecer Planilha
               </a>
