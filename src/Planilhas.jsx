@@ -163,18 +163,14 @@ function Planilhas() {
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
               <img src="/fotos trabalho (3).jpeg" alt="Resultado 4" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
-            <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/fotos trabalhos m (1).jpeg" alt="Resultado 5" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
-            </div>
+
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
               <img src="/fotos trabalhos m (2).jpeg" alt="Resultado 6" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
               <img src="/fotos trabalhos m (3).jpeg" alt="Resultado 7" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
-            <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/fotos trabalhos m (4).jpeg" alt="Resultado 8" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
-            </div>
+
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
               <img src="/fotos trabalhos m (5).jpeg" alt="Resultado 9" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
