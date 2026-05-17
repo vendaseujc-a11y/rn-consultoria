@@ -246,9 +246,9 @@ function App() {
           <p className="text-xl text-gray-300 mb-12">
             Comece hoje mesmo sua transformação com quem entende de resultados.
           </p>
-          <button className="glow-button bg-orange text-white font-bold py-5 px-16 rounded-xl text-xl uppercase tracking-wider">
+          <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="glow-button bg-orange text-white font-bold py-5 px-16 rounded-xl text-xl uppercase tracking-wider inline-block">
             Começar Minha Transformação
-          </button>
+          </a>
         </div>
       </section>
 
