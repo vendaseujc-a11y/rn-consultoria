@@ -152,7 +152,7 @@ function Planilhas() {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
-              <img src="/foto trabalho.jpeg" alt="Resultado 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <img src="/foto trabalho 7.jpeg" alt="Resultado 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden image-glow">
               <img src="/fotos trabalho (1).jpeg" alt="Resultado 2" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
