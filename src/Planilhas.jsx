@@ -35,11 +35,12 @@ function Planilhas() {
               <div className="w-14 h-14 bg-orange/10 border border-orange/30 rounded-xl flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
                 <span className="text-2xl">💪</span>
               </div>
+              <p className="text-orange text-xs font-bold tracking-widest mb-2 uppercase">Planilha de Treino</p>
               <h3 className="font-bebas text-2xl mb-2 tracking-wide">HIPERTROFIA <span className="text-orange">HOMEM</span></h3>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">Foco total em ganho de massa muscular, volume e densidade com treinos de alta intensidade e sobrecarga progressiva.</p>
-              <button className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
                 SAIBA MAIS <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
-              </button>
+              </a>
             </div>
 
             {/* Card 2 */}
@@ -48,11 +49,12 @@ function Planilhas() {
               <div className="w-14 h-14 bg-orange/10 border border-orange/30 rounded-xl flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
                 <span className="text-2xl">✨</span>
               </div>
+              <p className="text-orange text-xs font-bold tracking-widest mb-2 uppercase">Planilha de Treino</p>
               <h3 className="font-bebas text-2xl mb-2 tracking-wide">HIPERTROFIA <span className="text-orange">MULHER</span></h3>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">Desenvolvimento muscular com ênfase em glúteos e pernas, construindo curvas reais e um físico forte e definido.</p>
-              <button className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
                 SAIBA MAIS <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
-              </button>
+              </a>
             </div>
 
             {/* Card 3 */}
@@ -61,11 +63,12 @@ function Planilhas() {
               <div className="w-14 h-14 bg-orange/10 border border-orange/30 rounded-xl flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
                 <span className="text-2xl">🔥</span>
               </div>
+              <p className="text-orange text-xs font-bold tracking-widest mb-2 uppercase">Planilha de Treino</p>
               <h3 className="font-bebas text-2xl mb-2 tracking-wide">EMAGRECIMENTO <span className="text-orange">HOMEM</span></h3>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">Queima acelerada de gordura preservando a massa magra. Treinos metabólicos intensos para secar com qualidade.</p>
-              <button className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
                 SAIBA MAIS <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
-              </button>
+              </a>
             </div>
 
             {/* Card 4 */}
@@ -74,11 +77,12 @@ function Planilhas() {
               <div className="w-14 h-14 bg-orange/10 border border-orange/30 rounded-xl flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(255,107,0,0.2)]">
                 <span className="text-2xl">⚡</span>
               </div>
+              <p className="text-orange text-xs font-bold tracking-widest mb-2 uppercase">Planilha de Treino</p>
               <h3 className="font-bebas text-2xl mb-2 tracking-wide">EMAGRECIMENTO <span className="text-orange">MULHER</span></h3>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">Rotina projetada para secar e definir, combatendo a flacidez com exercícios estratégicos e gasto calórico elevado.</p>
-              <button className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
                 SAIBA MAIS <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
-              </button>
+              </a>
             </div>
 
             {/* Card 5 */}
@@ -88,11 +92,11 @@ function Planilhas() {
                 <span className="text-2xl">🔄</span>
               </div>
               <h3 className="font-bebas text-2xl mb-2 tracking-wide">DIVISÃO <span className="text-orange">PPL</span></h3>
-              <p className="text-orange text-xs mb-3 font-bold tracking-widest">TREINO HOMEM</p>
+              <p className="text-orange text-xs mb-3 font-bold tracking-widest uppercase">Planilha de Treino</p>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">A divisão mais consagrada. Treine empurrar (push), puxar (pull) e pernas (legs) com máxima eficiência e recuperação.</p>
-              <button className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
                 SAIBA MAIS <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
-              </button>
+              </a>
             </div>
 
             {/* Card 6 */}
@@ -102,11 +106,11 @@ function Planilhas() {
                 <span className="text-2xl">⚖️</span>
               </div>
               <h3 className="font-bebas text-2xl mb-2 tracking-wide">DIVISÃO <span className="text-orange">UPPER/LOWER</span></h3>
-              <p className="text-orange text-xs mb-3 font-bold tracking-widest">TREINO HOMEM</p>
+              <p className="text-orange text-xs mb-3 font-bold tracking-widest uppercase">Planilha de Treino</p>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">Frequência ideal com treinos divididos em membros superiores e inferiores. Equilíbrio perfeito para hipertrofia.</p>
-              <button className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="text-orange font-bold text-sm hover:text-white transition-colors flex items-center gap-2">
                 SAIBA MAIS <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
-              </button>
+              </a>
             </div>
 
             {/* Card 7 */}
@@ -114,13 +118,13 @@ function Planilhas() {
               <div className="absolute -top-20 -right-20 w-64 h-64 bg-orange/20 rounded-full blur-3xl group-hover:bg-orange/30 transition-all duration-700"></div>
               <div className="flex flex-col h-full justify-between relative z-10">
                 <div>
-                  <div className="inline-block px-4 py-1.5 bg-orange/20 text-orange text-xs font-bold rounded-full mb-6 tracking-widest">🏆 PROGRAMA COMPLETO</div>
+                  <div className="inline-block px-4 py-1.5 bg-orange/20 text-orange text-xs font-bold rounded-full mb-6 tracking-widest uppercase">Planilha de Treino</div>
                   <h3 className="font-bebas text-4xl mb-3">PERIODIZAÇÃO <span className="text-orange">6 MESES (PPL)</span></h3>
                   <p className="text-gray-300 text-base mb-8 max-w-md leading-relaxed">O mapa definitivo para sua evolução. Meio ano de planejamento estratégico no formato Push-Pull-Legs, garantindo progressão constante sem estagnar.</p>
                 </div>
-                <button className="glow-button bg-orange text-white font-bold py-4 px-8 rounded-xl w-fit uppercase tracking-wider text-sm">
+                <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="glow-button bg-orange text-white font-bold py-4 px-8 rounded-xl w-fit uppercase tracking-wider text-sm inline-block text-center">
                   Adquirir Pacote
-                </button>
+                </a>
               </div>
             </div>
 
@@ -129,13 +133,13 @@ function Planilhas() {
               <div className="absolute -top-20 -right-20 w-64 h-64 bg-orange/20 rounded-full blur-3xl group-hover:bg-orange/30 transition-all duration-700"></div>
               <div className="flex flex-col h-full justify-between relative z-10">
                 <div>
-                  <div className="inline-block px-4 py-1.5 bg-orange/20 text-orange text-xs font-bold rounded-full mb-6 tracking-widest">🏆 PROGRAMA COMPLETO</div>
+                  <div className="inline-block px-4 py-1.5 bg-orange/20 text-orange text-xs font-bold rounded-full mb-6 tracking-widest uppercase">Planilha de Treino</div>
                   <h3 className="font-bebas text-4xl mb-3">PERIODIZAÇÃO <span className="text-orange">6 MESES (UPPER/LOWER)</span></h3>
                   <p className="text-gray-300 text-base mb-8 max-w-md leading-relaxed">Estrutura de 6 meses focada em otimizar sua recuperação e desempenho com a divisão Superior/Inferior. O segredo dos atletas para hipertrofia sólida.</p>
                 </div>
-                <button className="glow-button bg-orange text-white font-bold py-4 px-8 rounded-xl w-fit uppercase tracking-wider text-sm">
+                <a href="https://wa.link/xow0vx" target="_blank" rel="noopener noreferrer" className="glow-button bg-orange text-white font-bold py-4 px-8 rounded-xl w-fit uppercase tracking-wider text-sm inline-block text-center">
                   Adquirir Pacote
-                </button>
+                </a>
               </div>
             </div>
           </div>
