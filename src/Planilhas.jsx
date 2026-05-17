@@ -19,88 +19,20 @@ function Planilhas() {
 
       <section className="pt-32 pb-24 px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="font-bebas text-4xl md:text-6xl text-center mb-12">
-            NOSSAS <span className="text-orange">PLANILHAS</span>
-          </h1>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">HIPERTROFIA <span className="text-orange">MASCULINO</span></h3>
-              <p className="text-gray-400 mb-4">Treinos focados em crescimento muscular com volume e intensidade ideais.</p>
-              <p className="font-bebas text-4xl text-orange mb-4">R$ 97</p>
-              <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
-                Comprar →
-              </button>
-            </div>
-
-            <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">HIPERTROFIA <span className="text-orange">FEMININO</span></h3>
-              <p className="text-gray-400 mb-4">Programa pensado para o corpo feminino com exercícios adequados.</p>
-              <p className="font-bebas text-4xl text-orange mb-4">R$ 97</p>
-              <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
-                Comprar
-              </button>
-            </div>
-
-            <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">EMAGRECIMENTO <span className="text-orange">MASCULINO</span></h3>
-              <p className="text-gray-400 mb-4">Queima de gordura com treino inteligente e metabolismo acelerado.</p>
-              <p className="font-bebas text-4xl text-orange mb-4">R$ 97</p>
-              <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
-                Comprar
-              </button>
-            </div>
-
-            <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">EMAGRECIMENTO <span className="text-orange">FEMININO</span></h3>
-              <p className="text-gray-400 mb-4">Sequência de exercícios para definir e queimar gordura localizada.</p>
-              <p className="font-bebas text-4xl text-orange mb-4">R$ 97</p>
-              <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
-                Comprar
-              </button>
-            </div>
-
-            <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">PPL <span className="text-orange">PUSH • PULL • LEGS</span></h3>
-              <p className="text-gray-400 mb-4">Divisão clássica para otimizar cada minuto na academia.</p>
-              <p className="font-bebas text-4xl text-orange mb-4">R$ 147</p>
-              <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
-                Comprar
-              </button>
-            </div>
-
-            <div className="glass card-hover rounded-xl p-8">
-              <h3 className="font-bebas text-3xl mb-4">UPPER/LOWER <span className="text-orange">SUPERIOR • INFERIOR</span></h3>
-              <p className="text-gray-400 mb-4">Divisão equilibrada para desenvolvimento completo.</p>
-              <p className="font-bebas text-4xl text-orange mb-4">R$ 147</p>
-              <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl w-full">
-                Comprar
-              </button>
-            </div>
-          </div>
-
-          <div className="mt-16 glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange">
-            <h3 className="font-bebas text-4xl text-center mb-4">SÉRIE <span className="text-orange">PLATINUM</span></h3>
-            <h4 className="font-bebas text-3xl text-center mb-4">PERIODIZAÇÃO <span className="text-orange">COMPLETA</span></h4>
-            <p className="text-gray-300 text-center mb-6">O mapa definitivo para sua evolução. 6 meses de treinamento estruturado com progressão garantida.</p>
-            <ul className="space-y-2 text-gray-400 mb-6 max-w-md mx-auto">
-              <li className="flex items-center gap-2">
-                <span className="text-orange">✓</span> 6 planilhas mensais
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-orange">✓</span> Vídeos técnicos
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-orange">✓</span> Suporte no WhatsApp
-              </li>
-            </ul>
-            <div className="text-center">
-              <p className="text-gray-500 line-through text-xl">R$ 597</p>
-              <p className="font-bebas text-5xl text-orange">R$ 397</p>
-              <p className="text-gray-400 mb-4">pagamento único</p>
-              <button className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl">
-                Garantir Minha Vaga
-              </button>
+          <div className="glass rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange/30 text-center mb-16 mt-8">
+            <h2 className="text-2xl md:text-3xl text-gray-200 mb-6 font-bold uppercase tracking-wide">
+              planilhas de treino ( hora q entrar vai para outra página com tudo isso)
+            </h2>
+            <div className="text-5xl mb-8">👇🏻</div>
+            <div className="text-left max-w-2xl mx-auto text-xl text-gray-300 space-y-4 font-medium">
+              <p className="hover:text-orange transition-colors">• hipertrofia homem</p>
+              <p className="hover:text-orange transition-colors">• hipertrofia mulher</p>
+              <p className="hover:text-orange transition-colors">• emagrecimento homem</p>
+              <p className="hover:text-orange transition-colors">• emagrecimento mulher</p>
+              <p className="hover:text-orange transition-colors">• treino homem divisão PPL (push - pull - press)</p>
+              <p className="hover:text-orange transition-colors">• ”” upper/lower</p>
+              <p className="hover:text-orange transition-colors">• periodização completa, 6 meses de treino (PPL)</p>
+              <p className="hover:text-orange transition-colors">• ”” (upper/lower)</p>
             </div>
           </div>
         </div>

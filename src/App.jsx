@@ -131,99 +131,10 @@ function App() {
 
           {/* Planilhas de Treino */}
           <div className="mb-16">
-            <div className="glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange/30 relative overflow-hidden">
-              <div className="flex flex-col md:flex-row gap-8 items-center">
-                <div className="flex-1">
-                  <h3 className="font-bebas text-4xl mb-4">PLANILHAS <span className="text-orange">DE TREINO</span></h3>
-                  <p className="text-gray-300 mb-6">
-                    Planilhas personalizadas com exercícios específicos para seu objetivo. Pronto para usar!
-                  </p>
-                  <ul className="space-y-2 text-gray-400 mb-6">
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✔️</span> Treinos periodizados
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✔️</span> Vídeos ensinando executar os exercícios
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✔️</span> Exercícios específicos para seu objetivo
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-orange">✔️</span> Pronto para usar
-                    </li>
-                  </ul>
-                  <a href="/planilhas" className="glow-button bg-orange text-white font-bold py-3 px-8 rounded-xl inline-block">
-                    Conhecer Planilha
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid de Planilhas */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Hipertrofia Masculino */}
-            <div className="glass card-hover rounded-xl p-6">
-              <div className="w-16 h-16 bg-orange/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-8 h-8 text-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
-                </svg>
-              </div>
-              <h4 className="font-bebas text-2xl text-center mb-2">HIPERTROFIA</h4>
-              <p className="text-orange text-center text-sm mb-4">MASCULINO</p>
-              <p className="text-gray-400 text-sm text-center mb-4">Treinos focados em crescimento muscular com volume e intensidade ideais.</p>
-              <div className="text-center border-t border-gray-700 pt-4">
-                <p className="font-bebas text-3xl text-orange">R$ 97</p>
-                <button className="text-orange text-sm font-medium mt-2 hover:underline">Comprar →</button>
-              </div>
-            </div>
-
-            {/* Hipertrofia Feminino */}
-            <div className="glass card-hover rounded-xl p-6">
-              <div className="w-16 h-16 bg-orange/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-8 h-8 text-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-              <h4 className="font-bebas text-2xl text-center mb-2">HIPERTROFIA</h4>
-              <p className="text-orange text-center text-sm mb-4">FEMININO</p>
-              <p className="text-gray-400 text-sm text-center mb-4">Programa pensado para o corpo feminino com exercícios adequados.</p>
-              <div className="text-center border-t border-gray-700 pt-4">
-                <p className="font-bebas text-3xl text-orange">R$ 97</p>
-                <button className="text-orange text-sm font-medium mt-2 hover:underline">Comprar →</button>
-              </div>
-            </div>
-
-            {/* Emagrecimento Masculino */}
-            <div className="glass card-hover rounded-xl p-6">
-              <div className="w-16 h-16 bg-orange/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-8 h-8 text-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-                </svg>
-              </div>
-              <h4 className="font-bebas text-2xl text-center mb-2">EMAGRECIMENTO</h4>
-              <p className="text-orange text-center text-sm mb-4">MASCULINO</p>
-              <p className="text-gray-400 text-sm text-center mb-4">Queima de gordura com treino inteligente e metabolismo acelerado.</p>
-              <div className="text-center border-t border-gray-700 pt-4">
-                <p className="font-bebas text-3xl text-orange">R$ 97</p>
-                <button className="text-orange text-sm font-medium mt-2 hover:underline">Comprar →</button>
-              </div>
-            </div>
-
-            {/* Emagrecimento Feminino */}
-            <div className="glass card-hover rounded-xl p-6">
-              <div className="w-16 h-16 bg-orange/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-8 h-8 text-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h4 className="font-bebas text-2xl text-center mb-2">EMAGRECIMENTO</h4>
-              <p className="text-orange text-center text-sm mb-4">FEMININO</p>
-              <p className="text-gray-400 text-sm text-center mb-4">Sequência de exercícios para definir e queimar gordura localizada.</p>
-              <div className="text-center border-t border-gray-700 pt-4">
-                <p className="font-bebas text-3xl text-orange">R$ 97</p>
-                <button className="text-orange text-sm font-medium mt-2 hover:underline">Comprar →</button>
-              </div>
+            <div className="glass card-hover rounded-2xl p-8 md:p-12 max-w-4xl mx-auto border-2 border-orange/30 relative overflow-hidden flex justify-center items-center">
+              <a href="/planilhas" className="glow-button bg-orange text-white font-bold py-4 px-12 rounded-xl inline-block text-2xl uppercase tracking-wider">
+                Conhecer Planilha
+              </a>
             </div>
           </div>
 
